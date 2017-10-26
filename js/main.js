@@ -13,7 +13,7 @@ $(document).ready(function()
             $(".navbar-brand").css("margin", "20px 15px");
         }
     })
-    document.writeln("new: " + $(document).width());
+    document.writeln("new: " + $(window).width());
     if ($(window).width() <= 1024) {
         $(".dropdown").click(function(e) {
             e.preventDefault();
